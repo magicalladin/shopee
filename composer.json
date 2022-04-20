@@ -1,0 +1,25 @@
+{
+    "name": "rusmanab/shopee",
+    "description": "Shopee Partner API PHP SDK",
+    "type": "library",
+    "keywords": [
+        "shopee",
+        "openapi"
+    ],
+    "homepage": "https://github.com/magicalladin/shopee",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/magicalladin/shopee"
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.5 || ^7.0",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rusmanab\\Shopee\\": "src"
+        }
+    }
+}
